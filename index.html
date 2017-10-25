@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website Project</title>
+        <style>
+            body {
+                background: rgb(20, 10, 25);
+                color: rgb(100, 250, 100);
+                padding: 10px;
+                font-family: courier;
+            }
+            header {
+                font-size: 1.75em;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+            /*NAVIGATION MENU*/
+            nav {
+                background: rgb(150, 50, 100);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 20px;
+            }          
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(100, 250, 100);
+                flex: 1; 
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+            /*MAIN*/
+            main {
+                background: rgb(150, 50, 100);
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+                border-radius: 20px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.35em;
+            }
+        </style>
+    </head>
+    
+        <body>
+            <div id='all-contents'>
+                <nav>
+                    <header>First Website Project</header>
+                    <ul>
+                        <li><a href='index.html'>Home</a></li>
+                        <li><a href='portfolio.html'>Portfolio</a></li>
+                    </ul>
+                </nav>
+                <main>
+                    <div class='sidebar'>
+                        <img src='https://pbs.twimg.com/media/CtKGddMUIAAQEo0.jpg'>
+                    </div>
+                    <div class='content'>
+                        <header>Justin S Michot</header>
+                        <p>Student at Operation Spark</p>
+                        <section class='interests'>
+                            <header>Interests</header>
+                            <ul>
+                                <li>veganism</li>
+                                <li>coding</li>
+                                <li>family</li>
+                            </ul>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </body>
+    
+</html>
