@@ -1,0 +1,101 @@
+body {
+    background: radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+                radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+                radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+                radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+                radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+                radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+                radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+                radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+                -webkit-linear-gradient(bottom left, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+                -webkit-linear-gradient(bottom left, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%);
+    background-color: #300; 
+    background-size: 100px 100px;;
+    padding: 10px;
+    font-family: sans-serif; 
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/*MAIN NAVIGATION MENU*/
+
+nav {
+    background-color: silver;
+    background-image: radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+                      radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+                      radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+                      radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+                      radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+    background-size:100px 50px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    color: #300;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+nav header {
+    display: flex;
+    align-items: center;
+    color: #300;
+    flex: 1;
+}
+
+nav ul {
+    list-style-image: none; 
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: rgb(125, 125, 125);
+}
+
+/*MAIN*/
+
+main {
+    background-color: #fff; 
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+                      linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar img {
+    width: 200px;
+}
+
+.contect {
+    flex: 1;
+    padding: 15px;
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+    margin: 10px;
+}
+
+.contect selection > a {
+    text-decoration: none;
+}
+
+
+
